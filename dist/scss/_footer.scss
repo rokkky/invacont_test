@@ -1,0 +1,17 @@
+.footer {
+  background-color: #e4e4e4;
+  &__rights {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+    min-height: 196px;
+  }
+  &__descr {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.67;
+    text-align: left;
+    color: #919191;
+  }
+}
+

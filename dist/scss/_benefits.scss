@@ -1,0 +1,26 @@
+.benefits {
+  padding: 82px 0 95px 0;
+  background: url(../images/prefooter_bg.png) center (center/cover) no-repeat;
+  border-bottom: 4px solid #7da83c;
+  &__title {
+    color: #000000;
+    font-family: HelveticaLight;
+    font-size: 34px;
+    line-height: 53px;
+  }
+  &__subtitle {
+    color: #48890a;
+    font-family: HelveticaBold;
+    font-size: 54px;
+    line-height: 53px;
+  }
+  &__descr {
+    width: 432px;
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.79;
+    text-align: left;
+    color: #000000;
+  }
+}

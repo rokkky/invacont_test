@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+@import "./fonts";
+@import "./header";
+@import "./catalog";
+@import "./benefits";
+@import "./footer";
+@import "./submenu";
+@import "./media";

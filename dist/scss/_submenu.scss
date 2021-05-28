@@ -1,0 +1,21 @@
+.submenu {
+  &__wrapper {
+    min-height: 65px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    a {
+      margin: 24px 8px 24px 8px;
+      text-decoration: none;
+      color: #7b7b7b;
+      font-size: 19px;
+      font-family: NIMBSTB;
+      text-transform: uppercase;
+      transition: all 0.5s;
+    }
+  }
+}
+.submenu__wrapper a:hover {
+  color: #8dc705;
+}

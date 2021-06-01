@@ -1,24 +1,28 @@
 .catalog {
-  min-height: 680px;
+  min-height: 700px;
   background-color: #26311c;
   .container {
     position: relative;
   }
   &__wrapper {
-    top: -141px;
+    top: -110px;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   &__item {
-    margin-top: 31px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30%;
   }
-  
+  &__item:nth-child(4) {
+    margin-top: 31px;
+  }
+  &__item:nth-child(5) {
+    margin-top: 31px;
+  }
   &__img {
     background-color: #fff; 
     border-radius: 50%;

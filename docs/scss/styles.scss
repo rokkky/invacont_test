@@ -5,6 +5,12 @@
   width: 960px;
   margin: 0 auto;
 }
+.hide {
+  display: none;
+}
+.show {
+  display: none;
+}
 @import "./fonts";
 @import "./header";
 @import "./catalog";
